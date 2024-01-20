@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+}
+
+header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+header img {
+    width: 60px;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+nav {
+    background-color: black;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+nav .menulista {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+nav .menulista li{
+    list-style: none;
+}
+nav .menulista li a{
+    text-decoration: none;
+    font-family: cursive;
+    color: white;
+    font-size: 15px;
+    margin: 18px;
+}
+.banner img {
+    position: relative;
+    width: 100%;
+    height: 500px;
+  
+}
+.texto {
+    position: absolute; 
+    top: 5em;
+    bottom: 5em;
+    left: 0;
+    right: 0;
+    text-align: center;
+   
+}
+.texto h1{
+    margin-top: 5em;
+    margin-bottom: 5em;
+    text-shadow: 0 0 5px red,0 0 15px red,0 0 30px red;
+}
+.texto h1 strong{
+    
+    color: white;
+    font-size: 100px;
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 150px;
+}
+main {
+    position: absolute;
+    display: flex; flex-direction: column; align-items: center; background-color: black; padding: 40px 0;
+}
+main p {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Tahoma';
+}
+main h1 {
+
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+main section {
+    width: 80%; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center;
+}
+main section figure {
+    width: 25%; padding: 30px; text-align: center; 
+}
+main section figcaption {
+    color: white;
+    font-size: 20px;
+    font-family: cursive;
+}
+main section figure img {
+    width: 100%; 
+}
